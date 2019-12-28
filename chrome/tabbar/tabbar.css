@@ -530,3 +530,10 @@ spacer[part="arrowscrollbox-overflow-end-indicator"]
 		}
 	}
 }
+
+
+/* Modifies the appearance of tab actvity alerts*/
+
+.tabbrowser-tab:-moz-any([image], [pinned]) > .tab-stack > .tab-content[attention]:not([selected=“true”]), .tabbrowser-tab > .tab-stack > .tab-content[pinned][titlechanged]:not([selected=“true”]) { border-top: 2px solid #e83535 !important; background-image: none !important; }
+
+
